@@ -1,0 +1,14 @@
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
+
+body {
+  h1 {
+    color: $rootColor;
+    font-size: 3em;
+  }
+  p {
+    color: $accentColor;
+    line-height: $space;
+  }
+}
